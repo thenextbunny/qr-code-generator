@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap');
 
 * {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     font-family: 'Chakra Petch', sans-serif;
     margin: 0;
@@ -14,10 +15,19 @@ body {
 }
 
 main {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -29,8 +39,15 @@ section {
 }
 
 .container {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     text-align: center;
 }
@@ -40,6 +57,7 @@ section {
 }
 
 .logo img {
+    -webkit-filter: invert(5%) sepia(53%) saturate(6661%) hue-rotate(223deg) brightness(91%) contrast(109%);
     filter: invert(5%) sepia(53%) saturate(6661%) hue-rotate(223deg) brightness(91%) contrast(109%);;
     width: 60px;
 }
@@ -62,6 +80,8 @@ button, input {
 button {
     background-color: #B4BEC9;
     margin-bottom: 8px;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
     transition: all 1s;
 }
 
@@ -92,6 +112,7 @@ footer img {
 }
 
 footer img:hover {
+    -webkit-filter: invert(43%) sepia(15%) saturate(6863%) hue-rotate(152deg) brightness(92%) contrast(83%);
     filter: invert(43%) sepia(15%) saturate(6863%) hue-rotate(152deg) brightness(92%) contrast(83%);
 }
 
