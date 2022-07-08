@@ -4,7 +4,7 @@
 </div>
 <div>
   <h3>Sobre o projeto</h3>
-  <p>O projeto deste repositório é um site que espera um texto do usuário para gerar um QR Code utilizando. O projeto foi feito utilizando a <a href="https://goqr.me/api/">API do goQR.me</a>.</>
+  <p>O projeto deste repositório é um site que espera um texto do usuário para gerar um QR Code. O projeto foi feito utilizando a <a href="https://goqr.me/api/">API do goQR.me</a> e JavaScript.</>
 
   ### [Clique aqui para visualizar a página final do projeto](https://thenextbunny.github.io/qr-code-generator/)
   
