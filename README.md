@@ -10,8 +10,11 @@
   
   <h3>Linguagens utilizadas</h3>
   <ul>
-    <li>CSS3</li>
-    <li>HTML5</li>
+    <li>CSS</li>
+    <li>HTML</li>
     <li>JavaScript</li>
   </ul>
+
+  <h3>Imagem</h3>
+  <img src="https://user-images.githubusercontent.com/99208505/180582757-17ffe800-601b-48cb-a09d-0c224463bc93.png" alt="Screenshot da página do QR Code Generator">
 </div>

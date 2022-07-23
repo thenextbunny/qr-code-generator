@@ -101,17 +101,18 @@ input {
     width: 240px;
 }
 
-footer {
+/* Footer */
+.thenextbunny {
     margin: 5px;
     text-align: center;
 }
 
-footer img {
+.thenextbunny img {
     margin-top: 8px;
     width: 25px;
 }
 
-footer img:hover {
+.thenextbunny img:hover {
     -webkit-filter: invert(43%) sepia(15%) saturate(6863%) hue-rotate(152deg) brightness(92%) contrast(83%);
     filter: invert(43%) sepia(15%) saturate(6863%) hue-rotate(152deg) brightness(92%) contrast(83%);
 }
